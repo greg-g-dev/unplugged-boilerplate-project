@@ -94,7 +94,19 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: yellow;
+}
 
+header {
+  padding: 15px 0;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: green;
 }
 
 header nav {
@@ -102,6 +114,57 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  background-color: red;
+}
+
+.content-wrapper {
+  width: 90%;
+}
+
+aside,
+.form-description,
+.features,
+.reviews {
+  padding: 0 20px;
+}
+
+header-divider {
+width: 100%;
+}
+
+header nav ul {
+  width: 45%;
+}
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 50%;
+}
+
+.features article {
+  width: 56%;
+}
+.reviews {
+  width: 100%;
+}
+
+.features h1,
+.reviews h1 {
+  width: 80%;
+}
+
+.reviews h3 {
+  width: 55%;
+}
+
+header .content-wrapper,
+features p,
+footer p {
+  margin: 0;
 }
 
 /* ----- Homepage -----
@@ -131,14 +194,19 @@ form {
   flex-flow: column wrap;
 }
 
+
+
+
 address,
 .contact,
 .social {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-flow: column wrap;
 }
+
+
 
 
 
