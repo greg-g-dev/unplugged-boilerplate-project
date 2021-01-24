@@ -87,6 +87,86 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------------- Base Header - Footer flex Styles -------------------------------*/
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* ----- Homepage -----
+.form,
+.form-description,
+.hero-area,
+aside,
+.features,
+.features-items,
+.reviews,
+.content-wrapper,
+.content-wrapper article
+*/
+.logo,
+.features-items
+{
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-flow: row wrap;
+}
+
+form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-flow: column wrap;
+}
+
+address,
+.contact,
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+
+
+/* ----- About ----- */
+
+.mission-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+/* ----- faq ----- */
+.faq,
+.faq-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +340,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
