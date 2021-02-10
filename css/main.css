@@ -87,6 +87,74 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  background-color: #1f2221;
+  color: #e2e3ed;
+}
+
+ul,
+ol {
+
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+h3,
+h4 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+p {
+
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+  color: #ffffff;
+}
+
+.content-wrapper {
+
+}
+
 /* -------------- Base Page, Header, Footer flex Styles -------------------------------*/
 
 .page-content {
@@ -212,8 +280,8 @@ footer .content-wrapper {
 }
 
 
-.features h1,
-.reviews h1 {
+.features h2,
+.reviews h2 {
   display: flex;
   justify-content: flex-start;
   align-items:  center;
