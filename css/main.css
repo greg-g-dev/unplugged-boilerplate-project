@@ -140,11 +140,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -220,20 +220,38 @@ footer {
 
 header {
   padding-bottom: 0;
+
 }
 
 footer {
     padding-top: 50px;
 }
 
-header .content-wrapper {
+.header-index-container,
+.header-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
   width: 100%;
+
 }
 
+.header-index-container {
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background-size: cover;
+}
+
+.header-index-container figure,
+.header-container figure
+ {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0 20px;
+}
 
 .header-divider {
 width: 100%;
@@ -262,14 +280,12 @@ header nav ul li {
   padding: 0 70px;
 }
 
-
-
 .heading {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
-  width: 100%;
+  padding-left: 20px;
 }
 
 .content-wrapper {
@@ -300,7 +316,8 @@ header nav ul li {
 }
 
 .features {
-
+  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 footer .content-wrapper {
@@ -544,11 +561,15 @@ address p {
     justify-content: space-between;
   }
 
-  header .content-wrapper {
+  .header-container {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
     padding: 60px;
+  }
+
+  .header-container figure {
+    width: 35%;
   }
 
   header nav ul li {
@@ -556,8 +577,6 @@ address p {
   }
 
   .heading {
-    padding-left: 60px;
-    padding-right: 60px;
     margin: 0;
   }
 
@@ -752,15 +771,19 @@ address p {
   }
 
 
-  header .content-wrapper,
+  .header-container,
   .hero-area,
   .features,
   .reviews {
     padding: 60px 120px;
   }
 
+  .header-container figure {
+    width: 30%;
+  }
+
   .heading {
-      padding-left: 120px;
+
   }
 
   footer {
