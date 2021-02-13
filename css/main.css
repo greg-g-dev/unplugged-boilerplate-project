@@ -186,6 +186,11 @@ input[type=button] {
   background-color: #517158;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .reviews-container {
   background-color: #29423a;
 }
@@ -332,6 +337,15 @@ footer .content-wrapper {
   justify-content: center;
   align-items:  center;
   flex-flow: row wrap;
+}
+
+.features-items article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 20px 40px;
+  width: 100%;
 }
 
 .features-items
