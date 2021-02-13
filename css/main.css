@@ -199,7 +199,7 @@ input[type=button] {
   border-radius: 30px;
   font-size: 2em;
   padding: 15px;
-  margin: 40px;
+  margin: 0 40px;
   background-color: #517158;
 }
 
@@ -251,7 +251,7 @@ footer {
 }
 
 .header-index-container {
-  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background: url('../img/jake-melara-30679-unsplash-1920.jpg') center no-repeat #333;
   background-size: cover;
 }
 
@@ -376,12 +376,13 @@ footer .content-wrapper {
 }
 
 .features h2,
-.reviews h2 {
+.reviews h2
+ {
   display: flex;
   justify-content: flex-start;
   align-items:  center;
   flex-flow: row wrap;
-  margin: 0;
+  margin: 30px 0 0 0;
   padding: 0;
   width: 100%;
 }
@@ -414,6 +415,17 @@ address,
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  margin-bottom: 20px;
+}
+
+.footer-contact h2,
+.footer-social h2
+ {
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-flow: column wrap;
+  width: 100%;
 }
 
 .social-icons {
@@ -607,6 +619,7 @@ address p {
     justify-content: space-between;
   }
 
+  .header-index-container,
   .header-container {
     display: flex;
     justify-content: space-between;
@@ -614,6 +627,7 @@ address p {
     padding: 60px;
   }
 
+  .header-index-container figure,
   .header-container figure {
     width: 35%;
   }
@@ -819,7 +833,7 @@ address p {
 
   }
 
-
+  .header-index-container,
   .header-container,
   .hero-area,
   .features,
@@ -827,6 +841,7 @@ address p {
     padding: 60px 120px;
   }
 
+  .header-index-container figure,
   .header-container figure {
     width: 30%;
   }
