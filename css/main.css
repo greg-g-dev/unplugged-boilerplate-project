@@ -728,6 +728,9 @@ address p {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 92%;
+  }
 
   .contact-content {
     display: flex;
@@ -822,7 +825,9 @@ address p {
     padding: 60px 120px;
   }
 
-
+  .map figure {
+    padding-bottom: 66%;
+  }
 /* -------- FAQ -------- */
 
 
