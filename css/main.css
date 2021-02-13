@@ -195,6 +195,14 @@ input[type=button] {
   background-color: #29423a;
 }
 
+.social-icons i {
+  border-radius: 30px;
+  font-size: 2em;
+  padding: 15px;
+  margin: 40px;
+  background-color: #517158;
+}
+
 /* ---- FAQ Style ---- */
 
 .faq-container {
@@ -407,6 +415,14 @@ address,
   align-items: center;
   flex-flow: column wrap;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 
 .copyright {
   padding: 20px 0;
